@@ -58,7 +58,7 @@ class NumClicks {
   union {
       uint64_t num_clicks;
       std::atomic<uint64_t> atomic_num_clicks;
-    };
+  };
 };
 
 /// Key is an 8-byte advertising ID.
